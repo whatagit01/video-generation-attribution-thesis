@@ -1,0 +1,15 @@
+{
+ "real_videos_folder": "~/MsC_Project/thesis_video_project/data/actions_segments_mp4",
+ "generated_videos_folder": "~/MsC_Project/thesis_video_project/generated_samples/latte_actions_genuine-seed-123",
+ "number_of_videos_compared": 100,
+ "fvd_score": {
+  "value": [
+   3099.354793453806
+  ]
+ },
+ "lpips_score": {
+  "value": [
+   0.8919379669586818
+  ]
+ }
+}

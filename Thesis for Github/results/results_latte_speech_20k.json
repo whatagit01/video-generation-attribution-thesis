@@ -1,0 +1,15 @@
+{
+ "real_videos_folder": "data/speech_segments_mp4",
+ "generated_videos_folder": "generated_samples/latte_speech_20k_full-seed-123",
+ "number_of_videos_compared": 100,
+ "fvd_score": {
+  "value": [
+   2533.0419984194314
+  ]
+ },
+ "lpips_score": {
+  "value": [
+   0.8192618297815323
+  ]
+ }
+}

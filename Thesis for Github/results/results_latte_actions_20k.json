@@ -1,0 +1,15 @@
+{
+ "real_videos_folder": "data/actions_segments_mp4",
+ "generated_videos_folder": "generated_samples/latte_actions_20k_full-seed-123",
+ "number_of_videos_compared": 100,
+ "fvd_score": {
+  "value": [
+   3397.065447943265
+  ]
+ },
+ "lpips_score": {
+  "value": [
+   0.8328098219633102
+  ]
+ }
+}
