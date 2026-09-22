@@ -16,7 +16,11 @@ Trained MoStGAN-V (GAN) and Latte (diffusion) on a single A40 GPU, using a small
 | LPIPS (speech) | 0.58 | 0.79 |
 
 - MoStGAN-V beat Latte by 65–89% on FVD, and plateaued within its training budget — Latte was still improving when I stopped training
-- Attribution classifier hit 92.9–95.4% test accuracy, with diffusion samples almost perfectly identified
+
+**Attribution classifier:**
+- 92.9–95.4% test accuracy across two experimental setups
+- Diffusion content was almost perfectly identified (100%)
+- Real vs. GAN was the harder distinction — most confusion happened here
 - Removing MoStGAN-V's best (speech) samples didn't improve accuracy like I expected — suggests the classifier is picking up on real, attributable artefacts rather than just exploiting quality differences
 
 ## Structure
